@@ -72,6 +72,10 @@
     height: 300px;
     position: relative;
     border-radius: 12px;
+    transition: all .6s;
+}
+.noticia_card:hover{
+  transform: scale(1.02, 1.02);
 }
 .noticia_card h1 {
     font-size: 17px;
@@ -103,6 +107,11 @@
     border-radius: 6px;
     font-weight: bold;
     cursor: pointer;
+    transition: all .6s;
+}
+
+.noticia_card button:hover{
+  background-color: #174e86;
 }
 
 
