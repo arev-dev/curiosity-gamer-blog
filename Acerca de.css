@@ -1,0 +1,48 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+  }
+  
+  ul {
+    background-color: #001F3F;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    height: 80px;
+  }
+  
+  li {
+    padding: 16px;
+    list-style: none;
+    display: grid; /* Aplicar display: grid a los elementos li */
+    place-items: center; /* Centrar el contenido verticalmente y horizontalmente */
+    height: 100%; /* Hacer que cada li ocupe todo el espacio vertical */
+  }
+  
+  li>a {
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+
+  h1{
+    font-size: 45px;
+    text-align: center;
+    padding: 20px;
+    color: #1b1b1b;
+  }
+
+  footer{
+    background-color: #001F3F;
+    height: 120px;
+  }
+
+  a{
+    text-decoration: none;
+    color: white;
+  }
